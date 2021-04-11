@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = "3.34.0"
+      version = "3.36.0"
     }
   }
 }
@@ -20,9 +20,5 @@ resource "aws_s3_bucket" "mikes_tfdemo_greatfiles1" {
   }
 }
 
-//resource "aws_default_vpc" "mikes-demo-network" {
-//  tags = {
-//    Name = "Default VPC for TF demo1 blabla"
-//  }
-//}
+
 
